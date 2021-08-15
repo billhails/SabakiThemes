@@ -1,6 +1,7 @@
 # Yunzi Theme for Sabaki
 
-A theme with yunzi stones for [Sabaki](http://sabaki.yichuanshen.de/). Rendered in [Blender](https://www.blender.org/).
+A theme with [Yunzi](https://en.wikipedia.org/wiki/Yunzi) stones for [Sabaki](http://sabaki.yichuanshen.de/).
+Rendered in [Blender](https://www.blender.org/).
 
 ![Screenshot](YunziScreenshot.png)
 
