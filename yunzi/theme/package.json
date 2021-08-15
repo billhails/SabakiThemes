@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A theme with yunzi stones for Sabaki (brighter version)",
   "author": "Bill Hails",
+  "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
   "main": "styles.css"
 }
