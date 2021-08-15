@@ -6,7 +6,7 @@ A theme with yunzi stones for [Sabaki](http://sabaki.yichuanshen.de/). Rendered 
 
 ## Installation
 
-[Download](https://github.com/billhails/YunziThemes/releases) the theme file and install it directly inside Sabaki
+[Download](https://github.com/billhails/SabakiThemes/releases) the theme file and install it directly inside Sabaki
 under 'Preferences' > 'Themes' > 'Install Theme...'.
 
 ## Build
