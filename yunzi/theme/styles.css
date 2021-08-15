@@ -1,0 +1,25 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0E0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #222;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/BlackStone.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/WhiteStone.png');
+}
+
+main {background: #f0f0f0 url('images/Mat.png') left top;}
