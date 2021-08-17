@@ -1,5 +1,8 @@
 # SabakiThemes
 
-A collection (well, only one item at the moment) of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
+A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
 
-See the readme in [yunzi](https://github.com/billhails/SabakiThemes/tree/main/yunzi).
+See the individual readme files in
+[yunzi](https://github.com/billhails/SabakiThemes/tree/main/yunzi)
+and
+[antique](https://github.com/billhails/SabakiThemes/tree/main/antique).
