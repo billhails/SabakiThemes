@@ -3,6 +3,7 @@
 A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
 
 See the individual readme files in
-[yunzi](https://github.com/billhails/SabakiThemes/tree/main/yunzi)
+[yunzi](https://github.com/billhails/SabakiThemes/tree/main/yunzi),
+[antique](https://github.com/billhails/SabakiThemes/tree/main/antique)
 and
-[antique](https://github.com/billhails/SabakiThemes/tree/main/antique).
+[semi-precious](https://github.com/billhails/SabakiThemes/tree/main/semi-precious).
