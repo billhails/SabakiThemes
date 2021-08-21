@@ -1,11 +1,10 @@
 # Yunzi Theme for Sabaki
 
-A theme with biconvex [Yunzi](https://en.wikipedia.org/wiki/Yunzi) stones for [Sabaki](http://sabaki.yichuanshen.de/).
-Rendered in [Blender](https://www.blender.org/).
+A theme with biconvex [Yunzi](https://en.wikipedia.org/wiki/Yunzi) stones and a [Kaya](https://en.wikipedia.org/wiki/Torreya_nucifera) board
+for [Sabaki](http://sabaki.yichuanshen.de/). Rendered in [Blender](https://www.blender.org/).
 
 I've used a single consistent HDRI lighting setup for all the components so they should fit together well.
-I could include the `.blend` files if anyone asks but for most
-people they're unneccessary.
+I could include the `.blend` files if anyone asks but for most people they're unneccessary.
 
 ![Screenshot](YunziScreenshot.png)
 
