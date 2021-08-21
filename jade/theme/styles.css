@@ -1,0 +1,42 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0E0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #eee;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+/* All stones are slightly different thickness
+ * therefore slightly different shading.
+ */
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/DarkStone.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/LightStone.png');
+}
+
+/* The default dark grey background was producing noticeable
+ * dark rings around the white stones when viewing a 9x9 board
+ * fullscreen. The following 2 settings provide matching
+ * light and dark backgrounds for the white and black stones.
+ */
+
+.shudan-vertex:not(.shudan-sign_0).shudan-sign_1 .shudan-shadow {
+    background: #61543b
+}
+
+.shudan-vertex:not(.shudan-sign_0).shudan-sign_-1 .shudan-shadow {
+    background: #424738
+}
+
+main {background: #f0f0f0 url('images/Carpet.png') left top;}

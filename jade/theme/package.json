@@ -1,0 +1,9 @@
+{
+  "name": "jade",
+  "version": "0.1.0",
+  "description": "A theme with jade stones for Sabaki",
+  "author": "Bill Hails",
+  "homepage": "https://github.com/billhails/SabakiThemes",
+  "license": "CC0-1.0",
+  "main": "styles.css"
+}
