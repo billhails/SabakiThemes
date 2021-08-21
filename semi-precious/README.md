@@ -1,4 +1,4 @@
-# Yunzi Theme for Sabaki
+# Semi-precious Stones Theme for Sabaki
 
 A theme with semi-precious stones and a marble board for [Sabaki](http://sabaki.yichuanshen.de/).
 Rendered in [Blender](https://www.blender.org/).
