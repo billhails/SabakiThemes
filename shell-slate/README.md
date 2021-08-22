@@ -1,4 +1,4 @@
-# Antique Theme for Sabaki
+# Clamshell and Slate Theme for Sabaki
 
 A theme with clamshell and slate stones and
 a [Kaya](https://en.wikipedia.org/wiki/Torreya_nucifera) board for [Sabaki](http://sabaki.yichuanshen.de/),
