@@ -13,6 +13,6 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | ------------------------------ | ------------------------------------------------------- |
 | [antique](antique)             | ![Screenshot](antique/AntiqueScreenshot.png)            |
 | [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.png)                  |
-| [semi-precious](semi-precious) | ![Screenshot](semi-precious/SemiPreciousScreenshot.png) |
+| [semi-precious](semi-precious) | ![Screenshot](semi-precious/SemipreciousScreenshot.png) |
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
