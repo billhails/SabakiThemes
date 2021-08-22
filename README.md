@@ -2,9 +2,17 @@
 
 A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
 
-See the individual readme files in
-[yunzi](https://github.com/billhails/SabakiThemes/tree/main/yunzi),
-[antique](https://github.com/billhails/SabakiThemes/tree/main/antique),
-[jade](https://github.com/billhails/SabakiThemes/tree/main/jade)
-and
-[semi-precious](https://github.com/billhails/SabakiThemes/tree/main/semi-precious).
+## Installation
+
+[Download](https://github.com/billhails/SabakiThemes/releases) the theme file and install it directly inside Sabaki
+under 'Preferences' > 'Themes' > 'Install Theme...'.
+
+## Screenshots
+
+| Theme                          | Screenshot                                              |
+| ------------------------------ | ------------------------------------------------------- |
+| [antique](antique)             | ![Screenshot](antique/AntiqueScreenshot.png)            |
+| [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.jpg)                  |
+| [semi-precious](semi-precious) | ![Screenshot](semi-precious/SemiPreciousScreenshot.png) |
+| [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
+| [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
