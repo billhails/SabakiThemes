@@ -12,7 +12,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | Theme                          | Screenshot                                              |
 | ------------------------------ | ------------------------------------------------------- |
 | [antique](antique)             | ![Screenshot](antique/AntiqueScreenshot.png)            |
-| [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.jpg)                  |
+| [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.png)                  |
 | [semi-precious](semi-precious) | ![Screenshot](semi-precious/SemiPreciousScreenshot.png) |
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
