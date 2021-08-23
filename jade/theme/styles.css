@@ -14,15 +14,36 @@
   background-image: url('images/Board.png');
 }
 
-/* All stones are slightly different thickness
- * therefore slightly different shading.
- */
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/DarkStone.png');
+    background-image: url('images/DarkStone0.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_1 {
+    background-image: url('images/DarkStone1.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_2 {
+    background-image: url('images/DarkStone2.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_3 {
+    background-image: url('images/DarkStone3.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_4 {
+    background-image: url('images/DarkStone4.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/LightStone.png');
+    background-image: url('images/LightStone0.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_1 {
+    background-image: url('images/LightStone1.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_2 {
+    background-image: url('images/LightStone2.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
+    background-image: url('images/LightStone3.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_4 {
+    background-image: url('images/LightStone4.png');
 }
 
 /* The default dark grey background was producing noticeable
