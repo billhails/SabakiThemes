@@ -1,0 +1,8 @@
+{
+  "name": "basic",
+  "version": "0.1.2",
+  "description": "A basic theme with glass stones and a beechwood board for Sabaki",
+  "author": "Bill Hails",
+  "license": "CC0-1.0",
+  "main": "styles.css"
+}

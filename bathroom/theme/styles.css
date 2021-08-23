@@ -69,12 +69,7 @@
 }
 
 /* make the grid lines thicker */
-rect.shudan-gridline.shudan-horizontal {
-    stroke-width: 2;
-    stroke: var(--shudan-board-foreground-color);
-}
-
-rect.shudan-gridline.shudan-vertical {
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
     stroke-width: 2;
     stroke: var(--shudan-board-foreground-color);
 }

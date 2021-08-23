@@ -16,3 +16,4 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [bathroom](bathroom)           | ![Screenshot](bathroom/BathroomScreenshot.png)          |
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
+| [basic](basic)                 | ![Screenshot](basic/BasicScreenshot.png)                |
