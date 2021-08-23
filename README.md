@@ -1,6 +1,6 @@
 # SabakiThemes
 
-A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
+A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki), done in [Blender](https://www.blender.org/).
 
 ## Installation
 
@@ -17,3 +17,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
 | [basic](basic)                 | ![Screenshot](basic/BasicScreenshot.png)                |
+
+## License
+
+Everything is released under [public domain](http://creativecommons.org/publicdomain/zero/1.0/).
