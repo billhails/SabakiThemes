@@ -4,7 +4,7 @@ A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki).
 
 ## Installation
 
-[Download](https://github.com/billhails/SabakiThemes/releases) the theme file and install it directly inside Sabaki
+[Download](https://github.com/billhails/SabakiThemes/releases) the theme files and install them directly inside Sabaki
 under 'Preferences' > 'Themes' > 'Install Theme...'.
 
 ## Screenshots
