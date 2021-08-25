@@ -12,12 +12,12 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | Theme                          | Screenshot                                              |
 | ------------------------------ | ------------------------------------------------------- |
 | [antique](antique)             | ![Screenshot](antique/AntiqueScreenshot.png)            |
-| [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.png)                  |
+| [basic](basic)                 | ![Screenshot](basic/BasicScreenshot.png)                |
 | [bathroom](bathroom)           | ![Screenshot](bathroom/BathroomScreenshot.png)          |
+| [jade](jade)                   | ![Screenshot](jade/JadeScreenshot.png)                  |
+| [sakura](sakura)               | ![Screenshot](sakura/SakuraScreenshot.png)              |
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
-| [basic](basic)                 | ![Screenshot](basic/BasicScreenshot.png)                |
-| [sakura](sakura)               | ![Screenshot](sakura/SakuraScreenshot.png)              |
 
 ## License
 
