@@ -17,3 +17,4 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
 | [basic](basic)                 | ![Screenshot](basic/BasicScreenshot.png)                |
+| [sakura](sakura)               | ![Screenshot](sakura/SakuraScreenshot.png)              |
