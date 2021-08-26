@@ -1,4 +1,4 @@
-# Basic Theme for Sabaki
+# Sakura Theme for Sabaki
 
 A sakura (cherry blossom) theme inspired by the [Kurigoishiten sakura-go](http://shop.kurokigoishi.co.jp/en/item/1912) set,
 for [Sabaki](http://sabaki.yichuanshen.de/),
