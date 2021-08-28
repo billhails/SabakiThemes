@@ -65,7 +65,7 @@ be surprised to know that it is scriptable and can be run in
 I'm on a Mac but this should work fine on Linux, and shouldn't be too hard on Windows using this as an
 example:
 
-* Copy `make-seamless.scm` to your gimp scripts directory.
+* Copy `simple-make-seamless.scm` to your gimp scripts directory.
    * For me that's `~/Library/Application\ Support/GIMP/2.10/scripts` (I had to create the `scripts` directory).
    * On Linux I beleve it's `~/.gimp-<version>/scripts`.
 * Edit the `make-seamless` bash script and change the path to gimp if needed.
