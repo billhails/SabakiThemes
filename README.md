@@ -22,7 +22,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 ## Resources
 
 The `.blend` file used to generate these themes, plus its resources and a description, are now available
-in the [blender](blender) directory. I'd consider pull requests but I'm not initially to keen, its mainly
+in the [blender](blender) directory. I'd consider pull requests but I'm not initially too keen, its mainly
 for the curious.
 
 ## License
