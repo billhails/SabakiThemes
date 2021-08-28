@@ -19,6 +19,12 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [shell-slate](shell-slate)     | ![Screenshot](shell-slate/ShellSlateScreenshot.png)     |
 | [yunzi](yunzi)                 | ![Screenshot](yunzi/YunziScreenshot.png)                |
 
+## Resources
+
+The `.blend` file used to generate these themes, plus its resources and a description, are now available
+in the [blender](blender) directory. I'd consider pull requests but I'm not initially to keen, its mainly
+for the curious.
+
 ## License
 
 Everything is released under [public domain](http://creativecommons.org/publicdomain/zero/1.0/).

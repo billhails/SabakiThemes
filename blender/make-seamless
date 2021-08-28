@@ -1,0 +1,3 @@
+#! /bin/bash
+
+/Applications/GIMP-2.10.app/Contents/MacOS/gimp -i -b "(simple-make-seamless \"$1\")" -b '(gimp-quit 0)'
