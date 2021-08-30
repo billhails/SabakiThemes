@@ -5,7 +5,7 @@ for [Sabaki](http://sabaki.yichuanshen.de/). Rendered in [Blender](https://www.b
 
 I've used a single consistent HDRI lighting setup for all the components so they should fit together well.
 
-![Screenshot](HardYunziScreenshot.png)
+![Screenshot](YunziScreenshot.png)
 
 ## Installation
 
