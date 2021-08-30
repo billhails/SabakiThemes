@@ -21,7 +21,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [shell-slate](shell-slate)                   | ![Screenshot](shell-slate/ShellSlateScreenshot.png)          |
 | [shell-slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/HardShellSlateScreenshot.png) |
 | [yunzi](yunzi)                               | ![Screenshot](yunzi/YunziScreenshot.png)                     |
-| [yunzi](yunzi-hard) (hard light)             | ![Screenshot](yunzi-hard/HardYunziScreenshot.png)            |
+| [yunzi](yunzi-hard) (hard light)             | ![Screenshot](yunzi-hard/YunziScreenshot.png)                |
 
 ## Resources
 
