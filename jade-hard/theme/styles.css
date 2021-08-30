@@ -1,0 +1,74 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0E0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #eee;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/DarkStone0.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_1 {
+    background-image: url('images/DarkStone1.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_2 {
+    background-image: url('images/DarkStone2.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_3 {
+    background-image: url('images/DarkStone3.png');
+}
+.shudan-stone-image.shudan-sign_1.shudan-random_4 {
+    background-image: url('images/DarkStone4.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/LightStone0.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_1 {
+    background-image: url('images/LightStone1.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_2 {
+    background-image: url('images/LightStone2.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
+    background-image: url('images/LightStone3.png');
+}
+.shudan-stone-image.shudan-sign_-1.shudan-random_4 {
+    background-image: url('images/LightStone4.png');
+}
+
+/* The default dark grey background was producing noticeable
+ * dark rings around the white stones when viewing a 9x9 board
+ * fullscreen. The following 2 settings provide matching
+ * light and dark backgrounds for the white and black stones and
+ * additionally colour the shadows green
+ */
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.224em 0.151em 0.02em rgb(0 5 0 / 70%));
+}
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #292410;
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #424738;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {background: #f0f0f0 url('images/Carpet.png') left top;}

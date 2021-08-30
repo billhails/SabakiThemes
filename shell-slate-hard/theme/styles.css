@@ -1,0 +1,66 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0E0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #eee;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/SlateStone.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/ShellStone0.png');
+}
+
+.shudan-stone-image.shudan-sign_-1.shudan-random_1 {
+    background-image: url('images/ShellStone1.png');
+}
+
+.shudan-stone-image.shudan-sign_-1.shudan-random_2 {
+    background-image: url('images/ShellStone2.png');
+}
+
+.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
+    background-image: url('images/ShellStone3.png');
+}
+
+.shudan-stone-image.shudan-sign_-1.shudan-random_4 {
+    background-image: url('images/ShellStone4.png');
+}
+
+/* The default dark grey background was producing noticeable
+ * dark rings around the white stones when viewing a 9x9 board
+ * fullscreen. The following 2 settings provide matching
+ * light and dark backgrounds for the white and black stones.
+ */
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #61543b;
+    filter: drop-shadow(0.120em 0.120em 0.005em rgb(0 0 0 / 70%));
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #a39e8a;
+    filter: drop-shadow(0.120em 0.120em 0.005em rgb(0 0 0 / 60%));
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {background: #f0f0f0 url('images/Mat.png') left top;}

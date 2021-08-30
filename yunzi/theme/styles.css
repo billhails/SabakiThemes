@@ -18,49 +18,30 @@
  * therefore slightly different shading.
  */
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/BlackStone1.png');
+    background-image: url('images/BlackStone.png');
 }
 
-.shudan-stone-image.shudan-sign_1.shudan-random_1 {
-    background-image: url('images/BlackStone2.png');
-}
-
-.shudan-stone-image.shudan-sign_1.shudan-random_2 {
-    background-image: url('images/BlackStone3.png');
-}
-
-.shudan-stone-image.shudan-sign_1.shudan-random_3 {
-    background-image: url('images/BlackStone4.png');
-}
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/WhiteStone1.png');
+    background-image: url('images/WhiteStone.png');
 }
 
-.shudan-stone-image.shudan-sign_-1.shudan-random_1 {
-    background-image: url('images/WhiteStone2.png');
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.106em 0.106em 0.06em rgb(0 0 0 / 60%));
 }
 
-.shudan-stone-image.shudan-sign_-1.shudan-random_2 {
-    background-image: url('images/WhiteStone3.png');
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #2d1413;
 }
 
-.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
-    background-image: url('images/WhiteStone4.png');
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #7b6d54;
 }
 
-/* The default dark grey background was producing noticeable
- * dark rings around the white stones when viewing a 9x9 board
- * fullscreen. The following 2 settings provide matching
- * light and dark backgrounds for the white and black stones.
- */
-
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_1 .shudan-shadow {
-    background: #61543b
-}
-
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_-1 .shudan-shadow {
-    background: #a39e8a
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
 }
 
 main {background: #f0f0f0 url('images/Mat.png') left top;}

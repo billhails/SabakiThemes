@@ -53,14 +53,22 @@
  * additionally colour the shadows green
  */
 
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_1 .shudan-shadow {
-    background: #61543b;
-    box-shadow: 0 0.1em 0.2em rgb(23 30 2 / 40%);
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.106em 0.106em 0.07em rgb(0 0 0 / 50%));
 }
 
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_-1 .shudan-shadow {
-    background: #424738;
-    box-shadow: 0 0.1em 0.2em rgb(23 55 2 / 40%);
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #322c18;
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #4e5e36;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
 }
 
 main {background: #f0f0f0 url('images/Carpet.png') left top;}

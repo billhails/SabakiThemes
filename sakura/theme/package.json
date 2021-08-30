@@ -1,8 +1,9 @@
 {
   "name": "sakura",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "A sakura theme for Sabaki",
   "author": "Bill Hails",
   "license": "CC0-1.0",
+  "homepage": "https://github.com/billhails/SabakiThemes",
   "main": "styles.css"
 }

@@ -1,4 +1,4 @@
-# Jade Theme for Sabaki
+# Jade Theme for Sabaki (Soft Light)
 
 A subdued theme with jade stones and a kaya board for [Sabaki](http://sabaki.yichuanshen.de/).
 Rendered in [Blender](https://www.blender.org/).
@@ -19,7 +19,7 @@ npm install
 npm run build
 ~~~
 
-This will create `jade.sabakitheme.asar`.
+This will create `jade-soft.sabakitheme.asar`.
 
 ## License
 

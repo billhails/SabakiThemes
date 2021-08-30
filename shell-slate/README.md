@@ -1,4 +1,4 @@
-# Clamshell and Slate Theme for Sabaki
+# Clamshell and Slate Theme for Sabaki (Soft Light)
 
 A theme with clamshell and slate stones and
 a [Kaya](https://en.wikipedia.org/wiki/Torreya_nucifera) board for [Sabaki](http://sabaki.yichuanshen.de/),
@@ -21,7 +21,7 @@ npm install
 npm run build
 ~~~
 
-This will create `shell-slate.sabakitheme.asar`.
+This will create `shell-slate-soft.sabakitheme.asar`.
 
 ## License
 

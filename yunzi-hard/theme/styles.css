@@ -1,0 +1,47 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0E0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #eee;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+/* All stones are slightly different thickness
+ * therefore slightly different shading.
+ */
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/BlackStone.png');
+}
+
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/WhiteStone.png');
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.164em 0.115em 0.02em rgb(0 0 0 / 50%));
+}
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #3f321f;
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #8a8475;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {background: #f0f0f0 url('images/Mat.png') left top;}

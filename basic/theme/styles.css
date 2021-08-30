@@ -28,13 +28,22 @@
  * light background for the white stones.
  */
 
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_-1 .shudan-shadow {
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
     background: #a99e7a
+}
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #36220e;
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.106em 0.106em 0.01em rgb(0 0 0 / 20%));
 }
 
 /* make the grid lines thicker */
 rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
-    stroke-width: 2;
+    stroke-width: 0.03em;
     stroke: var(--shudan-board-foreground-color);
 }
 

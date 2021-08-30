@@ -1,4 +1,4 @@
-# Antique Theme for Sabaki
+# Antique Theme for Sabaki (Soft Light)
 
 A theme with single convex "old" [Yunzi](https://en.wikipedia.org/wiki/Yunzi) stones and
 a bamboo board for [Sabaki](http://sabaki.yichuanshen.de/),
@@ -20,7 +20,7 @@ npm install
 npm run build
 ~~~
 
-This will create `antique.sabakitheme.asar`.
+This will create `antique-soft.sabakitheme.asar`.
 
 ## License
 

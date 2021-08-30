@@ -22,14 +22,24 @@
     background-image: url('images/YellowStone.png');
 }
 
-/* The default dark grey background was producing noticeable
- * dark rings around the white stones when viewing a 9x9 board
- * fullscreen. The following setting provides a matching
- * light background for the white stones.
- */
-
-.shudan-vertex:not(.shudan-sign_0).shudan-sign_-1 .shudan-shadow {
-    background: #a99e7a
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #9d8b5d;
 }
 
-main {background: #f0f0f0 url('images/Carpet.png') left top;}
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #36220e;
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.120em 0.120em 0.02em rgb(0 0 0 / 25%));
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {
+    background: #f0f0f0 url('images/Carpet.png') left top;
+}

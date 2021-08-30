@@ -3,6 +3,6 @@
     "asar": "^0.13.0"
   },
   "scripts": {
-    "build": "asar pack ./theme ./jade.sabakitheme.asar"
+    "build": "asar pack ./theme ./jade-soft.sabakitheme.asar"
   }
 }

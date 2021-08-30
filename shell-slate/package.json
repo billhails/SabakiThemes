@@ -3,6 +3,6 @@
     "asar": "^0.13.0"
   },
   "scripts": {
-    "build": "asar pack ./theme ./shell-slate.sabakitheme.asar"
+    "build": "asar pack ./theme ./shell-slate-soft.sabakitheme.asar"
   }
 }

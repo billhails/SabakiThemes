@@ -1,9 +1,10 @@
 {
   "name": "bathroom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A theme with semi-precious stones and a marble board for Sabaki",
   "author": "Bill Hails",
   "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
+  "homepage": "https://github.com/billhails/SabakiThemes",
   "main": "styles.css"
 }
