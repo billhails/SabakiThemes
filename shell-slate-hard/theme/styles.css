@@ -45,12 +45,12 @@
  */
 
 .shudan-vertex.shudan-sign_1 .shudan-shadow {
-    background: #61543b;
+    background: #463115;
     filter: drop-shadow(0.120em 0.120em 0.005em rgb(0 0 0 / 70%));
 }
 
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
-    background: #a39e8a;
+    background: #c5c0a8;
     filter: drop-shadow(0.120em 0.120em 0.005em rgb(0 0 0 / 60%));
 }
 

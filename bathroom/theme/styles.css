@@ -61,11 +61,11 @@
  */
 
 .shudan-vertex.shudan-sign_1 .shudan-shadow {
-    background: #61543b
+    background: #472b25;
 }
 
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
-    background: #3b3c3d
+    background: #3b3c3d;
 }
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
