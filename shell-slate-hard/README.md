@@ -5,7 +5,7 @@ a [Kaya](https://en.wikipedia.org/wiki/Torreya_nucifera) board for [Sabaki](http
 Rendered in [Blender](https://www.blender.org/).
 The nacre material of the white stones is based on a material by [ata4](https://www.blendswap.com/blend/10488) (CC-0 license).
 
-![Screenshot](HardShellSlateScreenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ## Installation
 

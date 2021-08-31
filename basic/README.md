@@ -4,7 +4,7 @@ A basic theme with glass stones and
 a beechwood board for [Sabaki](http://sabaki.yichuanshen.de/),
 Rendered in [Blender](https://www.blender.org/).
 
-![Screenshot](BasicScreenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ## Installation
 

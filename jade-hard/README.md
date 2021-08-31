@@ -3,7 +3,7 @@
 A theme with jade stones and a kaya board for [Sabaki](http://sabaki.yichuanshen.de/).
 Rendered with a hard outdoor HDRI in [Blender](https://www.blender.org/).
 
-![Screenshot](HardJadeScreenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ## Installation
 

@@ -4,7 +4,7 @@ A sakura (cherry blossom) theme inspired by the [Kurigoishiten sakura-go](http:/
 for [Sabaki](http://sabaki.yichuanshen.de/),
 Rendered in [Blender](https://www.blender.org/).
 
-![Screenshot](SakuraScreenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ## Installation
 

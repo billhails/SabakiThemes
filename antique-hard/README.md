@@ -4,7 +4,7 @@ A theme with single convex "old" [Yunzi](https://en.wikipedia.org/wiki/Yunzi) st
 a bamboo board for [Sabaki](http://sabaki.yichuanshen.de/),
 Rendered in [Blender](https://www.blender.org/) using a hard outdoor HDRI.
 
-![Screenshot](AntiqueHardScreenshot.png)
+![Screenshot](Screenshot.jpg)
 
 ## Installation
 
