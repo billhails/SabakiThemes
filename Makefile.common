@@ -1,0 +1,6 @@
+all: ${NAME}.sabakitheme.asar
+
+${NAME}.sabakitheme.asar: theme/package.json theme/styles.css theme/images/*.png
+	asar pack ./theme $@
+
+# vim: noet sw=8
