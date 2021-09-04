@@ -21,6 +21,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [Sakura](sakura)                                   | ![Screenshot](sakura/Screenshot.jpg)           |
 | [Clamshell & Slate](shell-slate)                   | ![Screenshot](shell-slate/Screenshot.jpg)      |
 | [Clamshell & Slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/Screenshot.jpg) |
+| [Yuki](yuki) (snow grade)                          | ![Screenshot](yuki/Screenshot.jpg)             |
 | [Yunzi](yunzi)                                     | ![Screenshot](yunzi/Screenshot.jpg)            |
 | [Yunzi](yunzi-hard) (hard light)                   | ![Screenshot](yunzi-hard/Screenshot.jpg)       |
 
