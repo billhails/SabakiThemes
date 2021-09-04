@@ -1,7 +1,10 @@
 
 .PHONY: doit
 
-all:	yunzi yunzi-hard antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yunzi yunzi-hard
+all:	yunzi yunzi-hard agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yunzi yunzi-hard
+
+agate: doit
+	$(MAKE) -C $@ NAME=$@
 
 antique: doit
 	$(MAKE) -C $@ NAME=$@-soft

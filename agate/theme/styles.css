@@ -1,0 +1,45 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #222;
+
+    --shudan-black-background-color: #0E0F0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #666;
+}
+
+.shudan-goban-image {
+  background-image: url('images/Board.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/Black.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/White.png');
+}
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #392f19;
+    filter: drop-shadow(0.106em 0.106em 0.06em rgb(0 0 0 / 70%));
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #806b3f;
+    filter: drop-shadow(0.106em 0.106em 0.06em rgb(0 0 0 / 30%));
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.02em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {
+    background: #f0f0f0 url('images/Background.png') left top;
+}

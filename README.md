@@ -9,19 +9,20 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 
 ## Screenshots
 
-| Theme                                        | Screenshot                                     |
-| -------------------------------------------- | ---------------------------------------------- |
-| [antique](antique)                           | ![Screenshot](antique/Screenshot.jpg)          |
-| [antique](antique-hard) (hard light)         | ![Screenshot](antique-hard/Screenshot.jpg)     |
-| [basic](basic)                               | ![Screenshot](basic/Screenshot.jpg)            |
-| [bathroom](bathroom)                         | ![Screenshot](bathroom/Screenshot.jpg)         |
-| [jade](jade)                                 | ![Screenshot](jade/Screenshot.jpg)             |
-| [jade](jade-hard) (hard light)               | ![Screenshot](jade-hard/Screenshot.jpg)        |
-| [sakura](sakura)                             | ![Screenshot](sakura/Screenshot.jpg)           |
-| [shell-slate](shell-slate)                   | ![Screenshot](shell-slate/Screenshot.jpg)      |
-| [shell-slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/Screenshot.jpg) |
-| [yunzi](yunzi)                               | ![Screenshot](yunzi/Screenshot.jpg)            |
-| [yunzi](yunzi-hard) (hard light)             | ![Screenshot](yunzi-hard/Screenshot.jpg)       |
+| Theme                                              | Screenshot                                     |
+| -------------------------------------------------- | ---------------------------------------------- |
+| [Agate](agate)                                     | ![Screenshot](agate/Screenshot.jpg)            |
+| [Antique](antique)                                 | ![Screenshot](antique/Screenshot.jpg)          |
+| [Antique](antique-hard) (hard light)               | ![Screenshot](antique-hard/Screenshot.jpg)     |
+| [Basic](basic)                                     | ![Screenshot](basic/Screenshot.jpg)            |
+| [Bathroom](bathroom)                               | ![Screenshot](bathroom/Screenshot.jpg)         |
+| [Jade](jade)                                       | ![Screenshot](jade/Screenshot.jpg)             |
+| [Jade](jade-hard) (hard light)                     | ![Screenshot](jade-hard/Screenshot.jpg)        |
+| [Sakura](sakura)                                   | ![Screenshot](sakura/Screenshot.jpg)           |
+| [Clamshell & Slate](shell-slate)                   | ![Screenshot](shell-slate/Screenshot.jpg)      |
+| [Clamshell & Slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/Screenshot.jpg) |
+| [Yunzi](yunzi)                                     | ![Screenshot](yunzi/Screenshot.jpg)            |
+| [Yunzi](yunzi-hard) (hard light)                   | ![Screenshot](yunzi-hard/Screenshot.jpg)       |
 
 ## Resources
 
