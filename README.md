@@ -25,6 +25,14 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [Yunzi](yunzi)                                     | ![Screenshot](yunzi/Screenshot.jpg)            |
 | [Yunzi](yunzi-hard) (hard light)                   | ![Screenshot](yunzi-hard/Screenshot.jpg)       |
 
+## Motivation
+
+![Banner](WhiteYunziBowl.jpg)
+
+This was my attempt to capture in CG something of the quality of a set of
+Yunzi stones I purchased, and it was easy to get from these initial renders
+to a Sabaki theme or two, then I sort of got carried away :smile:.
+
 ## Resources
 
 The `.blend` file used to generate these themes, plus its resources

@@ -36,15 +36,15 @@
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
     box-shadow: 0 0 0;
-    filter: drop-shadow(0.106em 0.106em 0.06em rgb(0 0 0 / 30%));
+    filter: drop-shadow(0 0.09em 0.01em rgb(0 0 0 / 17%));
 }
 
 .shudan-vertex.shudan-sign_1 .shudan-shadow {
-    background: #322c18;
+    background: #7b6b4c;
 }
 
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
-    background: #92838c;
+    background: #b0ad81;
 }
 
 rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
