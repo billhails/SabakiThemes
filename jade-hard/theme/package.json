@@ -1,10 +1,9 @@
 {
   "name": "Jade (hard light)",
-  "version": "0.1.4",
   "description": "A theme with jade stones for Sabaki",
+  "version": "1.0.6",
   "author": "Bill Hails",
   "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
-  "homepage": "https://github.com/billhails/SabakiThemes",
   "main": "styles.css"
 }

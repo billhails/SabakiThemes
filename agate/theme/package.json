@@ -1,9 +1,9 @@
 {
   "name": "Agate",
-  "version": "0.1.1",
   "description": "A theme with agate stones for Sabaki",
+  "version": "1.0.4",
   "author": "Bill Hails",
-  "license": "CC0-1.0",
   "homepage": "https://github.com/billhails/SabakiThemes",
+  "license": "CC0-1.0",
   "main": "styles.css"
 }

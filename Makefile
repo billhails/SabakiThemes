@@ -3,6 +3,8 @@
 
 THEMEDIRS=agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yuki yunzi yunzi-hard
 
+default: copy
+
 all: $(THEMEDIRS)
 
 $(THEMEDIRS): %: FORCE

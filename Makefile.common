@@ -1,6 +1,14 @@
+SHELL=/bin/bash
+
 all: ${NAME}.sabakitheme.asar
 
-${NAME}.sabakitheme.asar: theme/package.json theme/styles.css theme/images/*.png
+${NAME}.sabakitheme.asar: theme/package.json
 	asar pack ./theme $@
+
+# https://stedolan.github.io/jq/
+theme/package.json: theme.package.json version.json ../common.package.json theme/styles.css theme/images/*.png
+	jq '{major, minor, patch: (.patch + 1)}' version.json > version.json.tmp
+	mv version.json.tmp version.json
+	jq -s '.[0] * {version: "\(.[1].major).\(.[1].minor).\(.[1].patch)"} * .[2]' theme.package.json version.json ../common.package.json > $@
 
 # vim: noet sw=8
