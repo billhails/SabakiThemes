@@ -1,10 +1,16 @@
-SHELL=/bin/bash
+# common makefile fragment included by all of the individual theme Makefiles
+# operates in the context of those theme directories
 
 all: ${NAME}.sabakitheme.asar
 
 ${NAME}.sabakitheme.asar: theme/package.json
 	asar pack ./theme $@
 
+# use jq to automatically increment the patchlevel in version.js
+# then combine the fields of theme.package.json and ../common.package.json
+# along with a constructed semantic version string from version.json
+# into the single theme/package.json
+#
 # https://stedolan.github.io/jq/
 theme/package.json: theme.package.json version.json ../common.package.json theme/styles.css theme/images/*.png
 	jq '{major, minor, patch: (.patch + 1)}' version.json > version.json.tmp
