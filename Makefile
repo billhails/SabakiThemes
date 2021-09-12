@@ -1,45 +1,15 @@
 
-.PHONY: doit
+.PHONY: FORCE copy
 
-all:	agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yuki yunzi yunzi-hard
+THEMEDIRS=agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yuki yunzi yunzi-hard
 
-agate: doit
-	$(MAKE) -C $@ NAME=$@
+all: $(THEMEDIRS)
 
-antique: doit
-	$(MAKE) -C $@ NAME=$@-soft
+$(THEMEDIRS): %: FORCE
+	$(MAKE) -C $@
 
-antique-hard: doit
-	$(MAKE) -C $@ NAME=$@
+# easier when publishing a release to have everything in one place
+copy: all
+	for dir in $(THEMEDIRS) ; do cp $$dir/*.sabakitheme.asar . ; done
 
-basic: doit
-	$(MAKE) -C $@ NAME=$@
-
-bathroom: doit
-	$(MAKE) -C $@ NAME=$@
-
-jade: doit
-	$(MAKE) -C $@ NAME=$@-soft
-
-jade-hard: doit
-	$(MAKE) -C $@ NAME=$@
-
-sakura: doit
-	$(MAKE) -C $@ NAME=$@
-
-shell-slate: doit
-	$(MAKE) -C $@ NAME=$@-soft
-
-shell-slate-hard: doit
-	$(MAKE) -C $@ NAME=$@
-
-yuki: doit
-	$(MAKE) -C $@ NAME=$@
-
-yunzi: doit
-	$(MAKE) -C $@ NAME=$@-soft
-
-yunzi-hard: doit
-	$(MAKE) -C $@ NAME=$@
-
-# vim: noet sw=4
+# vim: noet sw=8
