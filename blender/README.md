@@ -32,6 +32,10 @@ for consistent lighting. Each scene nominates its preferred camera
 in its
 [Scene Properties](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html).
 
+Each scene is rendered with a compositing phase that uses a
+[File Output Node](https://docs.blender.org/manual/en/latest/compositing/types/output/file.html)
+to write images directly, saving development time.
+
 The "Preview" scenes render two stones on their board with the
 prevailing lighting, in order to see how the shadows should look
 when making adjustments to the css for each theme. See
@@ -57,7 +61,11 @@ shader with the mix factor determined by a
 [light path](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/light_path.html)
 node's `Is Camera Ray` output.  The upshot of this is that the board
 is invisible to the camera but still causes specular and diffuse
-reflections on the stones.
+reflections on the stones. Each stone has a separate
+[View Layer](https://docs.blender.org/manual/en/latest/render/layers/introduction.html)
+(actually there is a separate view layer for each stone and all other
+stones are disabled from that layer).
+The compositor sends each stone image to a separate file.
 
 ### Gotchas
 

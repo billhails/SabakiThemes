@@ -2,3 +2,5 @@
 node_modules
 package-lock.json
 *.blend[0-9]*
+themes/
+tmp/

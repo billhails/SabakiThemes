@@ -18,12 +18,12 @@
  * therefore slightly different shading.
  */
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/BlackStone.png');
+    background-image: url('images/Dark0.png');
 }
 
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/WhiteStone.png');
+    background-image: url('images/Light0.png');
 }
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
@@ -44,4 +44,4 @@ rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
     stroke: var(--shudan-board-foreground-color);
 }
 
-main {background: #f0f0f0 url('images/Mat.png') left top;}
+main {background: #f0f0f0 url('images/Background.png') left top;}

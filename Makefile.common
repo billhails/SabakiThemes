@@ -1,7 +1,18 @@
 # common makefile fragment included by all of the individual theme Makefiles
 # operates in the context of those theme directories
+#
+# ./tmp is ignored by .gitignore, and blender is configured to render into there
 
-all: ${NAME}.sabakitheme.asar
+ASAR="^0.13.0"
+
+MAKE_SEAMLESS=../blender/make-seamless
+
+LIGHT_STONES=$(patsubst %-0001.png,theme/images/%.png,$(notdir $(wildcard tmp/Light*-0001.png)))
+DARK_STONES=$(patsubst %-0001.png,theme/images/%.png,$(notdir $(wildcard tmp/Dark*-0001.png)))
+SEAMLESS_IMAGES=theme/images/Board.png theme/images/Background.png
+IMAGES=$(LIGHT_STONES) $(DARK_STONES) $(SEAMLESS_IMAGES)
+
+all: ${NAME}.sabakitheme.asar package.json
 
 ${NAME}.sabakitheme.asar: theme/package.json
 	asar pack ./theme $@
@@ -12,9 +23,22 @@ ${NAME}.sabakitheme.asar: theme/package.json
 # into the single theme/package.json
 #
 # https://stedolan.github.io/jq/
-theme/package.json: theme.package.json version.json ../common.package.json theme/styles.css theme/images/*.png
+theme/package.json: theme.package.json version.json ../common.package.json theme/styles.css $(IMAGES)
 	jq '{major, minor, patch: (.patch + 1)}' version.json > version.json.tmp
 	mv version.json.tmp version.json
 	jq -s '.[0] * {version: "\(.[1].major).\(.[1].minor).\(.[1].patch)"} * .[2]' theme.package.json version.json ../common.package.json > $@
+
+# maintain a package.json for anyone without make
+package.json: ../Makefile.common ../package.jq
+	jq --null-input --arg name ${NAME} --arg asar ${ASAR} --from-file ../package.jq > $@
+
+# copy stones directly from ./tmp to ./theme/images
+$(DARK_STONES) $(LIGHT_STONES): theme/images/%.png: tmp/%-0001.png
+	cp $< $@
+
+# images that need to be seamless require an extra step after copying
+$(SEAMLESS_IMAGES): theme/images/%.png: tmp/%-0001.png
+	cp $< $@
+	$(MAKE_SEAMLESS) $@
 
 # vim: noet sw=8

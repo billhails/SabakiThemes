@@ -15,27 +15,27 @@
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/SlateStone.png');
+    background-image: url('images/Dark0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/ShellStone0.png');
+    background-image: url('images/Light0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1.shudan-random_1 {
-    background-image: url('images/ShellStone1.png');
+    background-image: url('images/Light1.png');
 }
 
 .shudan-stone-image.shudan-sign_-1.shudan-random_2 {
-    background-image: url('images/ShellStone2.png');
+    background-image: url('images/Light2.png');
 }
 
 .shudan-stone-image.shudan-sign_-1.shudan-random_3 {
-    background-image: url('images/ShellStone3.png');
+    background-image: url('images/Light3.png');
 }
 
 .shudan-stone-image.shudan-sign_-1.shudan-random_4 {
-    background-image: url('images/ShellStone4.png');
+    background-image: url('images/Light4.png');
 }
 
 /* The default dark grey background was producing noticeable
@@ -63,4 +63,4 @@ rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
     stroke: var(--shudan-board-foreground-color);
 }
 
-main {background: #f0f0f0 url('images/Mat.png') left top;}
+main {background: #f0f0f0 url('images/Background.png') left top;}

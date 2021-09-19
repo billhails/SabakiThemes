@@ -14,11 +14,11 @@
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/Black.png');
+    background-image: url('images/Dark0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/White.png');
+    background-image: url('images/Light0.png');
 }
 
 .shudan-vertex.shudan-sign_1 .shudan-shadow {

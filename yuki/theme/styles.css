@@ -15,23 +15,23 @@
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/Black.png');
+    background-image: url('images/Dark0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/White0.png');
+    background-image: url('images/Light0.png');
 }
 .shudan-stone-image.shudan-sign_-1.shudan-random_1 {
-    background-image: url('images/White1.png');
+    background-image: url('images/Light1.png');
 }
 .shudan-stone-image.shudan-sign_-1.shudan-random_2 {
-    background-image: url('images/White2.png');
+    background-image: url('images/Light2.png');
 }
 .shudan-stone-image.shudan-sign_-1.shudan-random_3 {
-    background-image: url('images/White3.png');
+    background-image: url('images/Light3.png');
 }
 .shudan-stone-image.shudan-sign_-1.shudan-random_4 {
-    background-image: url('images/White4.png');
+    background-image: url('images/Light4.png');
 }
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {

@@ -11,7 +11,9 @@ $(THEMEDIRS): %: FORCE
 	$(MAKE) -C $@
 
 # easier when publishing a release to have everything in one place
-copy: all
-	for dir in $(THEMEDIRS) ; do cp $$dir/*.sabakitheme.asar . ; done
+copy: all | themes
+	for dir in $(THEMEDIRS) ; do cp $$dir/*.sabakitheme.asar ./themes ; done
 
+themes:
+	mkdir themes
 # vim: noet sw=8

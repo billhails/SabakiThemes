@@ -15,35 +15,11 @@
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/DarkStone0.png');
-}
-.shudan-stone-image.shudan-sign_1.shudan-random_1 {
-    background-image: url('images/DarkStone1.png');
-}
-.shudan-stone-image.shudan-sign_1.shudan-random_2 {
-    background-image: url('images/DarkStone2.png');
-}
-.shudan-stone-image.shudan-sign_1.shudan-random_3 {
-    background-image: url('images/DarkStone3.png');
-}
-.shudan-stone-image.shudan-sign_1.shudan-random_4 {
-    background-image: url('images/DarkStone4.png');
+    background-image: url('images/Dark0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/LightStone0.png');
-}
-.shudan-stone-image.shudan-sign_-1.shudan-random_1 {
-    background-image: url('images/LightStone1.png');
-}
-.shudan-stone-image.shudan-sign_-1.shudan-random_2 {
-    background-image: url('images/LightStone2.png');
-}
-.shudan-stone-image.shudan-sign_-1.shudan-random_3 {
-    background-image: url('images/LightStone3.png');
-}
-.shudan-stone-image.shudan-sign_-1.shudan-random_4 {
-    background-image: url('images/LightStone4.png');
+    background-image: url('images/Light0.png');
 }
 
 /* The default dark grey background was producing noticeable
@@ -71,4 +47,4 @@ rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
     stroke: var(--shudan-board-foreground-color);
 }
 
-main {background: #f0f0f0 url('images/Carpet.png') left top;}
+main {background: #f0f0f0 url('images/Background.png') left top;}

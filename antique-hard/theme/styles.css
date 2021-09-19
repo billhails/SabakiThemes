@@ -11,15 +11,15 @@
 
 .shudan-goban-image {
   /* Board texture */
-  background-image: url('images/BambooBoard.png');
+  background-image: url('images/Board.png');
 }
 
 .shudan-stone-image.shudan-sign_1 {
-    background-image: url('images/GreenStone.png');
+    background-image: url('images/Dark0.png');
 }
 
 .shudan-stone-image.shudan-sign_-1 {
-    background-image: url('images/YellowStone.png');
+    background-image: url('images/Light0.png');
 }
 
 .shudan-vertex.shudan-sign_-1 .shudan-shadow {
@@ -41,5 +41,5 @@ rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
 }
 
 main {
-    background: #f0f0f0 url('images/Carpet.png') left top;
+    background: #f0f0f0 url('images/Background.png') left top;
 }
