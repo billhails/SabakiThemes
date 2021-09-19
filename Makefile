@@ -5,9 +5,12 @@ THEMEDIRS=agate antique antique-hard basic bathroom jade jade-hard sakura shell-
 
 default: copy
 
-all: $(THEMEDIRS)
+all: $(THEMEDIRS) blender
 
 $(THEMEDIRS): %: FORCE
+	$(MAKE) -C $@
+
+blender: FORCE
 	$(MAKE) -C $@
 
 # easier when publishing a release to have everything in one place
