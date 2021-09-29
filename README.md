@@ -29,7 +29,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 
 ![Banner](WhiteYunziBowl.jpg)
 
-This was my attempt to capture in CG something of the quality of a set of
+The image above was my attempt to capture in CG something of the nature of a set of
 Yunzi stones I purchased, and it was easy to get from these initial renders
 to a Sabaki theme or two, then I sort of got carried away :smile:.
 
@@ -47,7 +47,7 @@ of stones and the board for each theme (see
 [blender/previews](blender/previews)), so that I could then refer
 to those images and adjust the css drop shadows to match. Having
 done that, I realised that some of the shadows, while much more
-faithful to the actual lighting, are quite extreme and some people
+faithful to the actual lighting, are quite extreme and people
 might find them distracting. For that reason those more extreme
 themes have been renamed to `-hard` variants, and "softer" variants
 have replaced the originals. Let me know which you prefer.
