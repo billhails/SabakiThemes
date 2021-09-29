@@ -30,7 +30,7 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 ![Banner](WhiteYunziBowl.jpg)
 
 The image above was my attempt to capture in CG something of the nature of a set of
-Yunzi stones I purchased, and it was easy to get from these initial renders
+Yunzi stones I own, and it was easy to get from these initial renders
 to a Sabaki theme or two, then I sort of got carried away :smile:.
 
 ## Resources
