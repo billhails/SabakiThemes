@@ -16,13 +16,15 @@ under 'Preferences' > 'Themes' > 'Install Theme...'.
 | [Antique](antique-hard) (hard light)               | ![Screenshot](antique-hard/Screenshot.jpg)     |
 | [Basic](basic)                                     | ![Screenshot](basic/Screenshot.jpg)            |
 | [Bathroom](bathroom)                               | ![Screenshot](bathroom/Screenshot.jpg)         |
+| [Clamshell & Slate](shell-slate)                   | ![Screenshot](shell-slate/Screenshot.jpg)      |
+| [Clamshell & Slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/Screenshot.jpg) |
 | [Jade](jade)                                       | ![Screenshot](jade/Screenshot.jpg)             |
 | [Jade](jade-hard) (hard light)                     | ![Screenshot](jade-hard/Screenshot.jpg)        |
 | [Sakura](sakura)                                   | ![Screenshot](sakura/Screenshot.jpg)           |
-| [Clamshell & Slate](shell-slate)                   | ![Screenshot](shell-slate/Screenshot.jpg)      |
-| [Clamshell & Slate](shell-slate-hard) (hard light) | ![Screenshot](shell-slate-hard/Screenshot.jpg) |
+| [Sumire](sumire)                                   | ![Screenshot](sumire/Screenshot.jpg)           |
 | [Yuki](yuki) (snow grade)                          | ![Screenshot](yuki/Screenshot.jpg)             |
 | [Yunzi](yunzi)                                     | ![Screenshot](yunzi/Screenshot.jpg)            |
+| [Yunzi](yunzi2) (lighter white stone)              | ![Screenshot](yunzi2/Screenshot.jpg)           |
 | [Yunzi](yunzi-hard) (hard light)                   | ![Screenshot](yunzi-hard/Screenshot.jpg)       |
 
 ## Motivation

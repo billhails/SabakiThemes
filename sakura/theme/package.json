@@ -1,9 +1,9 @@
 {
-  "name": "Sakura",
-  "description": "A Sakura (cherry blossom) theme for Sabaki",
-  "version": "1.0.9",
   "author": "Bill Hails",
+  "description": "A Sakura (cherry blossom) theme inspired by the Kurokigoisiten sakura-go set",
   "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
-  "main": "styles.css"
+  "main": "styles.css",
+  "name": "Sakura",
+  "version": "1.0.13"
 }

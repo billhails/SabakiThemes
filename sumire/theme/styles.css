@@ -1,0 +1,43 @@
+.shudan-goban {
+    --shudan-board-border-width: 0;
+    --shudan-board-foreground-color: #89a;
+
+    --shudan-black-background-color: #0E0F0E;
+    --shudan-black-foreground-color: #eee;
+
+    --shudan-white-background-color: #EBEBEB;
+    --shudan-white-foreground-color: #666;
+}
+
+.shudan-goban-image {
+  /* Board texture */
+  background-image: url('images/Board.png');
+}
+
+.shudan-stone-image.shudan-sign_1 {
+    background-image: url('images/Dark0.png');
+}
+
+.shudan-stone-image.shudan-sign_-1 {
+    background-image: url('images/Light0.png');
+}
+
+.shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
+    box-shadow: 0 0 0;
+    filter: drop-shadow(0.200em 0.000em 0.1em rgb(0 0 0 / 60%));
+}
+
+.shudan-vertex.shudan-sign_1 .shudan-shadow {
+    background: #4d3433;
+}
+
+.shudan-vertex.shudan-sign_-1 .shudan-shadow {
+    background: #414226;
+}
+
+rect.shudan-gridline.shudan-horizontal, rect.shudan-gridline.shudan-vertical {
+    stroke-width: 0.025em;
+    stroke: var(--shudan-board-foreground-color);
+}
+
+main {background: #f0f0f0 url('images/Background.png') left top;}

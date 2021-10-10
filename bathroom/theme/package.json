@@ -1,9 +1,9 @@
 {
-  "name": "Trump's Bathroom",
-  "description": "A theme with semi-precious stones and a marble board for Sabaki",
-  "version": "1.0.10",
   "author": "Bill Hails",
+  "description": "A theme with semi-precious stones and a marble board with gold inlay (if you like that sort of thing)",
   "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
-  "main": "styles.css"
+  "main": "styles.css",
+  "name": "Trump's Bathroom",
+  "version": "1.0.13"
 }

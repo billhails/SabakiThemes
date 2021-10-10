@@ -36,7 +36,7 @@
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
     box-shadow: 0 0 0;
-    filter: drop-shadow(0 0.09em 0.01em rgb(0 0 0 / 17%));
+    filter: drop-shadow(0.07em 0.07em 0.02em rgb(0 0 0 / 17%));
 }
 
 .shudan-vertex.shudan-sign_1 .shudan-shadow {

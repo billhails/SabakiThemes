@@ -1,0 +1,9 @@
+{
+  "author": "Bill Hails",
+  "description": "A Sumire (violet flower) theme inspired by the Kurokigoisiten sumire-go set",
+  "homepage": "https://github.com/billhails/SabakiThemes",
+  "license": "CC0-1.0",
+  "main": "styles.css",
+  "name": "Sumire",
+  "version": "1.0.1"
+}

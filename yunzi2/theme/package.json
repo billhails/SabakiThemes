@@ -1,0 +1,9 @@
+{
+  "author": "Bill Hails",
+  "description": "A theme with yunzi stones and soft shadows",
+  "homepage": "https://github.com/billhails/SabakiThemes",
+  "license": "CC0-1.0",
+  "main": "styles.css",
+  "name": "Yunzi (soft light, brighter white)",
+  "version": "1.0.1"
+}

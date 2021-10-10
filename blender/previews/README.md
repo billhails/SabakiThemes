@@ -11,6 +11,8 @@
 | Sakura | ![preview](Sakura-0001.jpg) |
 | Shell-Slate | ![preview](Shell-Slate-0001.jpg) |
 | Shell-Slate-Hard | ![preview](Shell-Slate-Hard-0001.jpg) |
+| Sumire | ![preview](Sumire-0001.jpg) |
 | Yuki | ![preview](Yuki-0001.jpg) |
 | Yunzi | ![preview](Yunzi-0001.jpg) |
 | Yunzi-Hard | ![preview](Yunzi-Hard-0001.jpg) |
+| Yunzi2 | ![preview](Yunzi2-0001.jpg) |

@@ -38,7 +38,7 @@
 
 .shudan-vertex:not(.shudan-sign_0) .shudan-shadow {
     box-shadow: 0 0 0;
-    filter: drop-shadow(0.106em 0.106em 0.01em rgb(0 0 0 / 20%));
+    filter: drop-shadow(0.05em 0.106em 0.02em rgb(0 0 0 / 20%)) drop-shadow(0.106em 0.05em 0.01em rgb(0 0 0 / 10%));
 }
 
 /* make the grid lines thicker */

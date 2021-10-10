@@ -4,3 +4,4 @@ package-lock.json
 *.blend[0-9]*
 themes/
 tmp/
+blender/reference

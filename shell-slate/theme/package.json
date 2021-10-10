@@ -1,9 +1,9 @@
 {
-  "name": "Clamshell & Slate (soft light)",
-  "description": "A clamshell and slate theme for Sabaki",
-  "version": "1.0.7",
   "author": "Bill Hails",
+  "description": "A clamshell and slate theme with soft shadows",
   "homepage": "https://github.com/billhails/SabakiThemes",
   "license": "CC0-1.0",
-  "main": "styles.css"
+  "main": "styles.css",
+  "name": "Clamshell & Slate (soft light)",
+  "version": "1.0.10"
 }

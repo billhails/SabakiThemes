@@ -1,22 +1,12 @@
 
-.PHONY: FORCE copy
+.PHONY: FORCE all
 
-THEMEDIRS=agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard yuki yunzi yunzi-hard
+THEMEDIRS=agate antique antique-hard basic bathroom jade jade-hard sakura shell-slate shell-slate-hard sumire yuki yunzi yunzi2 yunzi-hard
+ALLDIRS=$(THEMEDIRS) blender
 
-default: copy
+all: $(ALLDIRS)
 
-all: $(THEMEDIRS) blender
-
-$(THEMEDIRS): %: FORCE
+$(ALLDIRS): %: FORCE
 	$(MAKE) -C $@
 
-blender: FORCE
-	$(MAKE) -C $@
-
-# easier when publishing a release to have everything in one place
-copy: all | themes
-	for dir in $(THEMEDIRS) ; do cp $$dir/*.sabakitheme.asar ./themes ; done
-
-themes:
-	mkdir themes
 # vim: noet sw=8
