@@ -2,6 +2,8 @@
 
 A collection of themes for [Sabaki](https://github.com/SabakiHQ/Sabaki), done in [Blender](https://www.blender.org/).
 
+![GitHub all releases](https://img.shields.io/github/downloads/billhails/SabakiThemes/total?style=plastic)
+
 ## Installation
 
 [Download](https://github.com/billhails/SabakiThemes/releases) the theme files and install them directly inside Sabaki
